@@ -1,0 +1,37 @@
+.home-top-standings-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.home-top-standings-inner-container {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 0.25em 1em;
+}
+
+.home-top-standings-inner-item {
+    flex: 1;
+}
+
+.home-top-standings-inner-item-club {
+    flex: 3;
+}
+
+.home-top-standings-inner-item-club a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home-top-standings-inner-item-club a:hover {
+    color: #e51936;
+}

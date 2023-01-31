@@ -1,0 +1,15 @@
+.reportsTextArea{
+    background-color: white;
+    width: 100%;
+    min-height: 80px;
+  }
+  .reportDiv{
+    margin: 20px auto;
+    background-color: lightblue;
+    min-height: 100px;
+  }
+  .reporth1{
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+    color: red;
+  }

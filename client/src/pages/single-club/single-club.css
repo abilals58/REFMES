@@ -1,0 +1,153 @@
+#club-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#c-info-head {
+    font-family: sans-serif;
+}
+
+#club-logo {
+    padding: 3rem 2rem;
+    border-right: 1px solid #d6d5d59a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#club-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+} 
+
+
+.single-clup-page-table-social-flow{
+
+    width:80%;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+#c-i-h {
+    padding: 1rem 0;
+    border-bottom: 1px solid #d6d5d59a;
+}
+
+#c-i-t1 {
+    margin-top: 1rem;
+    border-bottom: 1px solid #d6d5d59a;
+}
+
+#c-i-t2 {
+    padding-top: 1rem;
+    border-bottom: 1px solid #d6d5d59a;
+}
+
+#c-i-g {
+    padding-top: 1rem;
+    color: black;
+}
+
+.c-g-info {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+.c-info-text {
+    font-family: sans-serif;
+}
+
+#club-info-section {
+    max-width: 75%;
+    background: #fff;
+    margin: 2em;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#club-info {
+    padding: 2rem 2.5rem;
+}
+
+.players-table-container {
+    max-width: 1080px;
+}
+
+.players-table-td {
+    text-align: center;  
+}
+
+.players-table-tr{
+    height: 50px;
+    background-color: #fff;
+}
+
+.players-table-tr:nth-child(odd) {
+    background-color: #e5e5e5
+}
+
+.players-table-tr:hover {
+    background-color: #f9f9f9;
+}
+
+.players-table-name-col {
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.players-table-last-col {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    overflow-x: auto;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.players-table {
+    width: 100%;
+    margin: 0 2rem;
+}
+
+#table-head {
+    color:black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#social-media-head{
+
+    color:black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.players-table-head {
+    background-color: #fff;
+    text-align: center;
+    font-size: large;
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.players-table-head-th {
+    height: 50px;
+    text-align: center;
+}

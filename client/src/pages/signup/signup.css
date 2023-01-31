@@ -1,0 +1,44 @@
+.btn-border {
+    border: black 1px solid !important;
+  }
+  
+  .sign-up-info-text {
+    color: grey;
+  }
+  
+  .fullscreen {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 90vh;
+    width: 100vw;
+  }
+  
+
+  #checkbox {
+    margin-right: 3px;
+  }
+  
+  .errorMessage {
+    color: rgba(39, 39, 194, 0.801);
+  }
+  
+  .error-text {
+    color: red;
+  }
+
+  .signup-page select:required:invalid {
+    color: gray;
+  }
+  .signup-page option[value=""][disabled] {
+    display: none;
+  }
+  .signup-page option {
+    color: black;
+  }
+  .signup-page-scroolbar{
+    max-height: 3em;
+    overflow-y: scroll;
+  }

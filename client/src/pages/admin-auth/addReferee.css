@@ -1,0 +1,17 @@
+.btn-border {
+    border: black 1px solid !important;
+  }
+  .errorMessage {
+    color: rgba(39, 39, 194, 0.801);
+  }
+  
+  .error-text {
+    color: red;
+  }
+  .form_addReferee{
+    width: 40vw;
+    margin: 0 auto;
+  }
+  .p_addReferee{
+    margin-top: 10px;
+  }

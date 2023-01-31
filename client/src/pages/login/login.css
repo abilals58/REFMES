@@ -1,0 +1,20 @@
+.btn-border {
+  border: black 1px solid !important;
+}
+
+.errorMessage {
+  color: rgba(39, 39, 194, 0.801);
+}
+
+.error-text {
+  color: red;
+}
+
+.link-line-gap {
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.card-shadow {
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}

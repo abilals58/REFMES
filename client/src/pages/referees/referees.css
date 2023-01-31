@@ -1,0 +1,32 @@
+
+.rounded:hover{
+    background: #e51936;
+    text-decoration: none;
+}
+
+.rounded:hover a{
+    color: rgba(255, 255, 255, 0.93);
+}
+
+.rounded:hover img{
+    border: 3px solid #ffffff;
+}
+.rounded:hover .ref-box-inner-total-match{
+    color:rgb(255, 255, 255);
+}
+.rounded:hover .ref-score-box{
+    color:rgb(255, 255, 255);
+}  
+.bg-color{
+    background-color: rgba(255, 255, 255, 0.693);
+    box-shadow: 0 2px 8px 0 rgb(99 99 99 / 20%);
+}
+.text-color{
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.allref-container-center{
+    justify-content: center;
+    align-items: center;
+}

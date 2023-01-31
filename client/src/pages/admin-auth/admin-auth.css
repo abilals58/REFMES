@@ -1,0 +1,24 @@
+.h1_admin-auth{
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+}
+
+.admin-auth-container {
+    max-width: 840px;
+    margin-bottom: 3rem;
+}
+.admin-auth-btn-container p{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+    display: contents;
+}
+.admin-auth-btn-container {
+    padding: 1rem;
+}
+
+.admin-auth-btn {
+    padding: 1rem 1.5rem;
+    width: 50%;
+}

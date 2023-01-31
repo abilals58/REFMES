@@ -1,0 +1,17 @@
+.vote_border{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+}
+.user_vote_stars {
+    color: #FFA500;
+}
+  
+  .user_vote_stars:hover {
+    color: #ff7700;
+}
+.referee_name{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}

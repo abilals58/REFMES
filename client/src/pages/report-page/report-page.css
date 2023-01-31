@@ -1,0 +1,41 @@
+.report-page-container{
+    max-width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+.report-page-header{
+
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5em;
+
+    
+}
+
+.report-page-form{
+    max-width: 75%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5em;
+
+}
+
+.report-page-text-area{
+
+    height:15em;
+    margin-bottom: 2em;
+
+}
+
+.report-page-label{
+
+    margin-left: 1em;
+    margin-bottom:1em;
+    color:red;
+}

@@ -1,0 +1,16 @@
+.ref-update-header{
+
+    display:flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.update-ref-btn-size{
+
+    width: 80%;
+    height: 4em;
+    margin-left:2em;
+    margin-right:auto;
+    margin-top:4em;
+}

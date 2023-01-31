@@ -1,0 +1,31 @@
+.matches-league-week-container {
+
+}
+
+.matches-league-week-inner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.matches-league-week-block {
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-left: 0.5em;
+    border-radius: 25%;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.matches-league-week-block:hover {
+    cursor: pointer;
+    background: #cfcfcf;
+}
+
+.matches-league-week-no {
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,267 @@
+.profile-info {
+  height: 20vh;
+  margin: 0;
+  align-items: center;
+  justify-content: start;
+}
+
+.profileImg {
+  background-color: #1c9941;
+  width: 130px;
+  height: 130px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #9effbb;
+}
+
+.profileImgLocation {
+  margin-left: 2vw;
+}
+
+.profile-page-divider {
+  color: #1c9941;
+}
+.space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
+.border{
+  border-style: solid;
+  border-width: thick;
+}
+.vignette {
+  box-shadow: 0 0 50px rgba(0,0,0,0.9) inset;
+}
+.user_profile_cap {
+  padding: 0;
+  overflow:hidden;
+}
+
+.user_profile_headline {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.user_profile_headline img{
+    border:1px solid #EEEEEE;
+    width:140px;
+    height:140px;
+    float:left;
+    margin:-80px 50px 50px  300px;
+    position:relative;
+    z-index:111;
+    background-color:white;
+    border-radius: 50%;
+}
+
+.user_profile_cover{
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  max-height: 30em;
+  box-shadow: 0 0px 20px 20px rgb(0 0 0 / 75%) inset;
+}
+
+.user_profile_cover img {
+  z-index: -2;
+}
+
+.user_profile_headline h2{
+ 
+    margin:0;
+    padding:0;
+    font-size:12px;
+    font-weight:bold;
+    display:block;   
+}
+
+.user_profile_headline span{
+    font-size:10px;
+    font-family:verdana;
+    color:gray;
+ 
+}
+
+.stadium {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0 !important;
+}
+
+.follow_container {
+  display: flex;
+}
+
+.follow_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.club_container {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display:flex;
+  justify-content: center;
+}
+
+.club_inner {
+  max-width: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-style: italic;
+  font-size: large;
+  font-weight: 600;
+}
+
+.club_inner img {
+  width: 100%;
+}
+
+.club_inner p {
+  padding-left: 24px;
+  margin: 0;
+}
+
+.user_profile_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.social_media_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.social_media_inner {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.social_media_inner a {
+  font-size: 40px;
+}
+
+.user_edit_pen {
+  background: #dddddd;
+  /* position: absolute; */
+  z-index: 100;
+  font-size: 27px;
+  /* right: 0; */
+  margin-left: 44px;
+  margin-top: 5px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.75;
+}
+
+.user_edit_pen:hover {
+  opacity: 1;
+}
+
+.user_edit_pen a {
+  color: #e51936;
+}
+
+.user_comment_container {
+  border: 1px solid #9696965e;
+  border-radius: 16px;
+  margin: 20px 0 20px 0;
+}
+
+.user_comment_inner {
+  margin: 7px 0 7px 0;
+}
+
+.user_comment_inner_top {
+  border-bottom: 1px solid #9696965e;
+  padding-bottom: 7px;
+}
+
+.user_comment_inner_bottom {
+  border-top: 1px solid #9696965e;
+  padding-top: 4px;
+}
+
+.user_vote_stars {
+  color: #FFA500;
+}
+
+.user_vote_stars:hover {
+  color: #ff7700;
+}
+.profile-left-sidebar{
+  padding: 0.5em;
+  width: 90%;
+  height: 42em;
+  border: 0.2em solid red;
+  border-radius: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.left-sidebar-margin{
+  margin-right:1.5em ;
+}
+.profile-section-text{
+  font-size: large;
+  font-weight: 800;
+}
+.profile-subsection-text{
+  font-size: medium;
+  font-weight: 600;
+  margin-top: 0.7em;
+  margin-bottom: 0.2em;
+}
+.user-profile-information{
+  margin: 0.2em;
+  text-align: center;
+}
+.user-profile-input{
+  border-radius: 0.4em;
+  border: 0.1em solid  rgba(0, 157, 18, 0.5);
+  width: 60%;
+  height: 2em;
+  text-align: center;
+}
+.user-profile-comment-scroll{
+  max-height: 40em;
+  overflow-y: scroll;
+  overflow: auto;
+  padding-bottom: 2em;
+}
+.user-profile-comment-scroll::-webkit-scrollbar{
+  width: 1.25em;
+}
+.user-profile-comment-scroll::-webkit-scrollbar-track{
+  background: rgba(0, 157, 18, 0.262);
+  border-radius: 2em;
+}
+.user-profile-comment-scroll::-webkit-scrollbar-thumb{
+  background: rgb(149, 212, 145);
+  border-radius: 2em;
+  border: 0.2em solid green;
+}
+.user-profile-comment-scroll::-webkit-scrollbar-thumb:hover{
+  background: rgba(0, 157, 18, 0.547);
+}
+.user-profile-divider {
+  border-top: 0.5em dotted rgb(7, 7, 7);
+  margin-bottom: 0.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: 2em;
+}

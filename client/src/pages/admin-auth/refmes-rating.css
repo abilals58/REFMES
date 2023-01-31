@@ -1,0 +1,27 @@
+.refmes-rating-outer-container {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.refmes-rating-weight-container {
+    padding: 0.5em;
+    width: 50%;
+}
+
+.refmes-rating-weight-inner {
+    padding: 1.5em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.refmes-rating-inner-container-error {
+    margin-bottom: 2em;
+}
+
+.refmes-rating-inner-container-error a {
+    font-size: 0.9em;
+}

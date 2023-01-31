@@ -1,0 +1,7 @@
+.form_addObserver{
+    width: 40vw;
+    margin: 0 auto;
+  }
+  .errorMessage {
+    color: rgba(39, 39, 194, 0.801);
+  }
