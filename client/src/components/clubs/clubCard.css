@@ -1,0 +1,32 @@
+.club-card {
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    float:left;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 40px;
+}
+
+.c-card-img{
+    width:80%;
+    height:auto;
+    margin-bottom: 1rem;
+}
+
+.c_title {
+    text-align: center;
+    color: #e51937;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.club-card-image {
+    display:flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.card-title {
+    font-size: 1.4rem;
+}
+

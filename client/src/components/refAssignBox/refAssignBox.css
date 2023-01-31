@@ -1,0 +1,10 @@
+.ref-assign-box-container {
+    padding: 1em;
+}
+
+.ref-assign-box-details {
+    padding: 1em;
+    background: #fff;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 10px;
+}

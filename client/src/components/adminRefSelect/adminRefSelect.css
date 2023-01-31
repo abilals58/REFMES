@@ -1,0 +1,44 @@
+.ck-button {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.ck-button label {
+    float:left;
+    margin: 0.4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+
+.ck-button label span {
+    text-align: center;
+    padding: 0.6rem 0;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ck-button label input {
+    position:fixed;
+    top: -20px;
+}
+
+.ck-button input:hover + span {
+    background-color: #efe0e0;
+}
+
+.ck-button input:checked + span {
+    background-color: #940e21;
+    color: #fff;
+}
+
+.ck-button input:checked:hover + span {
+    background-color: #e51936;
+    color: #fff;
+}
+.admin-href{
+    text-decoration: none;
+    pointer-events: none;
+}

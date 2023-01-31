@@ -1,0 +1,28 @@
+.rating-outer-container-pre {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    margin: 2em 2em 0em 2em;
+    padding: 2em 4em 2em 2em;
+    border-radius: 10px;
+    max-width: 900px;
+    flex: 1;
+    width: 100%;
+}
+
+.rating-left-pre {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+}
+
+.rating-right-pre {
+    text-align: center;
+    flex: 5;
+}
+.rating-box-error-msg{
+    font-size: smaller;
+    font-weight: 100;
+    color: rgb(117, 117, 222);
+}

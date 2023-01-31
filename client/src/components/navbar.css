@@ -1,0 +1,36 @@
+.loginBtn {
+    background-color: #e09900;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .loginBtn:hover {
+    background-color: #4e3700;
+    border-radius: 3px;
+  }
+  .uploadBtnText {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .uploadBtn{
+    background-color: #1c9941;
+    border-radius: 7px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  .uploadBtn:hover {
+    background-color: #014f27;
+    border-radius: 3px;
+  }
+  .navText {
+    color: rgb(232, 17, 17);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .brandText {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 400;
+  }
+  

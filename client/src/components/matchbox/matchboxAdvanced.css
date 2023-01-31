@@ -1,0 +1,188 @@
+.matchbox-advanced-outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matchbox-advanced-clubs-container {
+    display: flex;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 2em;
+    width: 100%;
+    justify-content: center;
+    max-width: 1080px;
+}
+
+.matchbox-advanced-clubs-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0 1.5em;
+    width: 100%;
+}
+
+.matchbox-advanced-clubs-left-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 3em;
+    background: #fff;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    width: 100%;
+}
+
+.matchbox-advanced-clubs-left-logo {
+    flex: 1;
+}
+
+.matchbox-advanced-clubs-left-club-img {
+    height: 5em;
+}
+
+.matchbox-advanced-clubs-left-name {
+    text-align: center;
+    margin-left: 1.5em;
+    flex: 2;
+}
+
+.matchbox-advanced-clubs-left-name a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.matchbox-advanced-clubs-left-name a:hover {
+    color: #e51936;
+}
+
+.matchbox-advanced-clubs-left-score {
+    margin-left: 1em;
+    height: 2em;
+    width: 2em;
+    background: #e51936;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    border-radius: 20px;
+}
+
+.matchbox-advanced-clubs-vs {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.matchbox-advanced-clubs-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0 1.5em;
+    width: 100%;
+}
+
+.matchbox-advanced-clubs-right-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 3em;
+    background: #fff;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    width: 100%;
+}
+
+.matchbox-advanced-clubs-right-score {
+    margin-right: 1em;
+    height: 2em;
+    width: 2em;
+    background: #e51936;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+    border-radius: 20px;
+}
+
+.matchbox-advanced-clubs-right-name {
+    text-align: center;
+    margin-right: 1.5em;
+    flex: 2;
+}
+
+.matchbox-advanced-clubs-right-name a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.matchbox-advanced-clubs-right-name a:hover {
+    color: #e51936;
+}
+
+.matchbox-advanced-clubs-right-logo {
+    flex: 1;
+}
+
+.matchbox-advanced-clubs-right-club-img {
+    height: 5em;
+
+}
+
+.matchbox-advanced-stadium-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 2em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin: 1em;
+    width: 50%;
+}
+
+.matchbox-advanced-stadium-icon {
+
+}
+
+.matchbox-advanced-stadium-name {
+
+}
+
+.matchbox-advanced-referee-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 2em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin: 1em;
+    width: 50%;
+    align-items: center;
+}
+
+.matchbox-advanced-referee-name {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.matchbox-advanced-referee-name:hover {
+    text-decoration: none;
+    color: #e51936;
+    font-size: 1.1em;
+}
+
+.matchbox-advanced-comments-container {
+    width: 100%;
+    margin-top: 1.5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}

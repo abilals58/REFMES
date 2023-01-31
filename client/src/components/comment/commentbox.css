@@ -1,0 +1,67 @@
+/*COMMENT*/
+
+.refs-page-container {
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
+  margin: 2em 2em 0em 2em;
+  padding: 2em 2em 2em 2em;
+  border-radius: 10px;
+  max-width: 900px;
+  flex: 1;
+  width: 100%;
+  font-size: 1em;
+}
+
+.refs-page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.refs-page-header-person {
+  font-size: 1em;
+}
+
+.refs-page-header-dot {
+  margin: 0 0.4em 0 0.4em;
+  color: #8d8d8d;
+}
+
+.refs-page-header-date {
+  color: #8d8d8d;
+  font-size: 0.75em;
+}
+
+.refs-page-comment {
+  margin-top: 1em;
+}
+
+.refs-page-comment-text {
+  color: rgb(95, 95, 95);
+}
+.refs-page-inner-container{
+  flex:7;
+}
+.refs-page-right-container{
+  flex:2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+.refs-page-rigth-logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.refs-page-right-logo-img{
+ width: 60px;
+ height: auto;
+}
+.refs-page-rigth-week{
+  justify-content: center;
+  display: flex;
+  margin-top: 0.75em;
+}

@@ -1,0 +1,85 @@
+.ref-update-bar{
+
+    background-color:  rgb(255 255 255);
+    padding-top: 1em;
+    border-radius: 10px;
+    box-shadow:  1px rgb(0 23 34 / 8%);
+    margin-bottom: 2em;
+    height: 22em;
+    
+}
+
+.ref-update-bar:hover{
+
+    background-color: #e81111;
+}
+
+.ref-update-bar-card{
+
+    margin:0;
+    margin-bottom: 1em;
+    border-color: none;
+    box-shadow: none;
+    height:18em;
+    display: flex;
+    justify-content: center;
+    background-color: none;
+}
+
+.ref-update-bar-card-row{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: none;
+    padding-top: 1em;
+}
+.ref-update-bar-img{
+
+    width:90%;
+    max-height:15em;
+
+}
+
+.ref-update-bar-card-img{
+
+    display:flex;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+.ref-update-bar-total-match-header{
+    margin-top: 40%;
+    height:20%;
+    text-align: center;
+}
+
+.ref-update-bar-total-match-num{
+    height:40%;
+    text-align: center;
+
+}
+
+.ref-update-bar-ref-info{
+
+    text-align: center;
+    height:50%;
+
+}
+.ref-update-bar-ref-info-head{
+
+    height:30%;
+}
+
+.ref-update-bar-ref-info-num{
+
+    height:70%;
+    text-align: center;
+}
+
+.ref-update-bar-info-row{
+
+    height:50%;
+    width:100%;
+
+}

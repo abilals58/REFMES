@@ -1,0 +1,29 @@
+.home-top-referees-inner-container {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 0.25em 1em;
+}
+
+.home-top-referees-inner-item {
+    flex: 1;
+}
+
+.home-top-referees-inner-item-referee {
+    flex: 3;
+}
+
+.home-top-referees-inner-item-referee a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home-top-referees-inner-item-referee a:hover {
+    color: #e51936;
+}

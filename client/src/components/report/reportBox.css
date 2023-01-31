@@ -1,0 +1,26 @@
+.reportsTextArea{
+    background-color: white;
+    width: 100%;
+    min-height: 80px;
+    border-radius: 0.3em;
+    padding-left: 0.3em;
+    margin-left: 0.1em;
+    margin-right: 0.2em;
+    
+  }
+  .reportDiv{
+    margin: 20px auto;
+    background-color: rgba(227, 227, 227, 0.588);
+    min-height: 100px;
+    box-shadow: rgba(247, 78, 78, 0.385)0px 30px 60px -12px, rgba(247, 197, 197, 0.3) 0px 18px 36px -18px;
+    border-radius: 2em;
+  }
+  .reporth1{
+    margin: 1em 0em 1em 0em;
+    text-align: center;
+    color: red;
+  }
+  
+.admin-report-btn {
+  width: 20%;
+}

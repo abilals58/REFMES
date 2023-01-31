@@ -1,0 +1,158 @@
+body {
+    background-color: #f7f7f7d1
+}
+
+.padding-15 {
+    padding: 15px !important
+}
+
+.padding-b {
+    padding-bottom: 15px;
+}
+
+.padding-l-15 {
+    padding-left: 15px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border: none;
+    margin-bottom: 2em;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+    border-radius: 10px 0 0 10px;
+}
+
+.grad-color {
+    background: #e51936;
+}
+
+.user-profile {
+    padding: 20px 0;
+    border-radius: 10px 0 0 10px;
+    box-shadow: inset -2rem 0px 3rem -1.5rem rgb(0 0 0 / 70%);
+}
+
+.card-block {
+    padding: 20px;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.img-radius {
+    border-radius: 4px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #919aa3 !important;
+}
+
+.m-l-15 {
+    margin-left: 15px;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-500 {
+    font-weight: 500;
+}
+
+.f-w-700 {
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 2px !important;
+}
+
+.p-t-15 {
+    padding-top: 15px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ref-no-comment-text {
+    color: rgb(208, 28, 28);
+    font-weight: 600;
+    margin-top: 0.5em;
+    font-size: large;
+    font-style: italic;
+}
+
+.refbar-header-background {
+    box-shadow: inset 0rem -2rem 2rem -2rem rgb(0 0 0 / 70%);
+}

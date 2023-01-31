@@ -1,0 +1,140 @@
+.voting-result-box-outer-container {
+    display: flex;
+    padding: 1.5em;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 10px;
+    margin: 1em;
+    background: #fff;
+    flex-direction: column;
+}
+
+.voting-result-box-inner-container {
+    display: flex;
+    width: 100%;
+}
+
+.voting-result-box-inner-left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+}
+
+.voting-result-box-inner-left-name {
+    margin-right: 0.5em;
+}
+.voting-result-box-inner-container p{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+    display: contents;
+}
+.matches-league-week-no{
+    margin-right: 10px;
+    margin-left: 5px;
+    font-weight: 600;
+    display: contents;
+}
+.voting-result-box-inner-left-image {
+    margin-right: 0.5em;
+}
+
+.voting-result-box-inner-left-club-img {
+    height: 2em;
+}
+
+.voting-result-box-inner-left-score {
+    display: flex;
+    height: 2em;
+    width: 2em;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    border-radius: 5px;
+    margin-right: 0.25em;
+}
+
+.voting-result-box-inner-right {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+}
+
+.voting-result-box-inner-right-score {
+    display: flex;
+    height: 2em;
+    width: 2em;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    border-radius: 5px;
+    margin-left: 0.25em;
+}
+
+.voting-result-box-inner-right-image {
+    margin-left: 0.5em;
+}
+
+.voting-result-box-inner-right-club-img {
+    height: 2em;
+}
+
+.voting-result-box-inner-right-name {
+    margin-left: 0.5em;
+}
+
+.voting-result-box-middle-container {
+    text-align: center;
+}
+
+.voting-result-box-middle-referee {
+    font-size: 1em;
+    margin-top: 1em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.voting-result-box-middle-link{
+    text-decoration: none;
+    color:red
+}
+
+.voting-result-box-bottom-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2em;
+}
+
+.voting-result-box-bottom-button {
+    font-size: 0.75em;
+    margin-top: 1.25em;
+}
+
+.voting-result-box-bottom-button a {
+    text-decoration: none;
+    color: #666;
+}
+
+.voting-result-box-bottom-button a:hover {
+    color: #e51936;
+}
+.voting-result-box-display-text{
+    margin: 0 0.5rem;
+    font-weight: 600;
+    font-size: large;
+}
+.voting-result-box-point-circle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background: #4babe6;
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-radius: 10px;
+}

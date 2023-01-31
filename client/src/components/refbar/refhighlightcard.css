@@ -1,0 +1,10 @@
+.referee-display-point-circle-WH{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background: #1997e5;
+    font-weight: 600;
+    color:white;
+    border-radius: 10px;
+    width: 50%;
+}

@@ -1,0 +1,100 @@
+
+.standing-table table {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 8px 0 rgb(99 99 99 / 20%);
+    border-radius: 10px;
+}
+
+.standing-table table thead tr th {
+    padding: 20px;
+    border-bottom:1px solid #dedede;
+    color: #000;
+}
+
+.standing-table table.table-striped tbody tr:hover {
+    background-color: #92929258;
+}
+
+.standing-table table.result-point tr td.number {
+    width: 100px;
+    position: relative;
+} 
+.standing-table .text-left {
+    text-align: left!important;
+}
+
+.standings-win-text-color{
+    color: green;
+}
+.standings-lose-text-color{
+    color: red;
+}
+.standings-draw-text-color{
+    color: grey;
+}
+.standing-table-text-left-number{
+    color:orange
+}
+.standing-table table.result-point tr td .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+}
+
+.standing-table table tr td {
+    padding: 0.6em 1.5em;
+}
+
+.standing-table table tr td img {
+    max-width: 2em;
+    float: left;
+    margin-top: 1px;
+}
+.lose-badge {
+    height: 1.5em;
+    width: 1.5em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: red;
+    font-weight: 600;
+    color:white;  
+}
+.win-badge {
+    height: 1.5em;
+    width: 1.5em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: green;
+    font-weight: 600;
+    color:white;
+}
+.draw-badge {
+    height: 1.5em;
+    width: 1.5em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: grey;
+    font-weight: 600;
+    color:white;
+}
+.standing-table-teamname{
+    text-shadow: 2em;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.standing-table-teamname:hover{
+    text-shadow: 2em;
+    color: #e51936;
+}
+
+.standing-badge{
+    margin-left:  0.25em;
+}

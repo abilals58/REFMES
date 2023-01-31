@@ -1,0 +1,52 @@
+.ck-button-summary {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.ck-button-summary label {
+    float:left;
+    margin: 0.4rem;
+    background-color: #ffffff;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    padding: 0.25rem;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.ck-button-summary label p{
+    justify-content: center;
+}
+.ck-button-summary label input {
+    position:fixed;
+    top: -20px;
+}
+.selectec-ref-text{
+    font-weight: 700;
+    color: rgb(0, 109, 13);
+    margin: 1em;
+}
+.preweek-ref-submit{
+    margin-top: 2em;
+    height: 50px;
+    width: 30%;
+    color:white;
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+}
+.preweek-ref-submit:disabled{
+    margin-top: 1em;
+    height: 50px;
+    width: 30%;
+    color:white;
+    background-color: rgba(0, 128, 0, 0.444);
+    border-radius: 10px;
+    border: none;
+}
+.preweek-ref-error-mes{
+    margin-top: 1em;
+    color: rgb(55, 55, 255);
+    font-weight: 500;
+    font-style: italic;
+}

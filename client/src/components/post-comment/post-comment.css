@@ -1,0 +1,79 @@
+.post-comment-outer-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    margin: 2em 2em 5em 2em;
+    padding: 4.5em 2em 3em 2em;
+    border-radius: 10px;
+    max-width: 900px;
+    flex: 1;
+    width: 100%;
+    font-size: 1em;
+}
+
+.post-comment-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.post-comment-left {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}
+
+.post-comment-team {
+    display: flex;
+    align-items: center;
+}
+
+.post-comment-team img {
+    width: 28px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.post-comment-team a {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.post-comment-match {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-comment-referee {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.post-comment-referee a {
+    color: #444;
+    text-decoration: none;
+}
+
+.post-comment-referee a:hover {
+    color: #e51936;
+}
+
+.post-comment-right {
+    text-align: center;
+    flex: 1;
+}
+
+.post-comment-textarea {
+    width: 100%;
+}
+
+.post-comment-comment-error {
+    margin-top: 1em;
+    color: #e51936;
+    font-size: 0.9em;
+}

@@ -1,0 +1,97 @@
+.rounded img {
+    border-radius: 15px;
+}
+
+.ref-hover-effect p {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    transition: none !important;
+}
+
+.ref-click-all {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ref-hover-effect p:hover {
+    color: rgb(255, 255, 255);
+}
+
+.refcomment-hover-effect a {
+    color: rgb(255, 0, 0);
+}
+
+.refcomment-hover-effect a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.refcard-ref-name {
+    margin-bottom: 0;
+}
+
+.ref-box-outer-container {
+    width: 100%;
+    margin: 0.25em;
+    box-shadow: #4b494933 0px 2px 5px 2px !important;
+}
+
+.ref-box-inner-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ref-box-inner-left {
+    flex: 3;
+}
+
+.ref-box-inner-right {
+    flex: 7;
+    flex-direction: column;
+}
+
+.ref-box-right-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5em;
+}
+
+.ref-box-inner-total-match {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.ref-box-items-size {
+    margin: 0.4em;
+    font-weight: 500;
+    font-size: small;
+    font-style: italic;
+}
+
+.ref-score-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 9em;
+    height: 6em;
+    margin: 0.1em;
+}
+
+.ref-score-box img {
+    width: 100%;
+    opacity: 0.1;
+    height: 100%;
+}
+
+.ref-box-divider {
+    border-top: 5px dotted #bbb;
+    margin: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
